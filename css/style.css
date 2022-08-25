@@ -238,7 +238,7 @@ li{
   }
 }
 @media screen and (max-width: 400px){
-  .center__div{
+  .middle__center{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -628,6 +628,11 @@ li{
 @media screen and (max-width: 530px){
   .bottom__element{
     flex: 0 1 100%;
+  }
+}
+@media screen and (max-width: 400px){
+  .footer{
+    padding-top: 550px;
   }
 }
 .bottom__title{
