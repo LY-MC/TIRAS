@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Contacts</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+        <div class="container">
+            <div class="content">
+                <header>
+                    <div class="top">
+                        <div class="header__wrapper wrapper">
+                            <div class="top__phone">+373 78 589 095</div>
+                                <a href="#" class="top__call">Перезвонить</a>
+                                <span class="top__email">info@tiras.md</span>
+                                <div class="top__select">
+                                    <img src="/img/Icons/united-states.svg" name="widget" alt="icon" class="top__icon">
+                                    <select name="language" class="top__language" onchange="if(document.images) document.images['widget'].src='/img/Icons/'+this.options[this.selectedIndex].value+'.svg';">
+                                        <option value="united-states">English</option>
+                                        <option value="Russian">Russian</option>
+                                        <option value="Romanian">Romanian</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="line" width="100%" color="#f6ba5c" height="1px" size="3px">
+                        <div class="middle">
+                            <div class="header__wrapper wrapper">
+                                <a href="#" class="middle__logo">
+                                    <img src="/img/Tiras_Logo_V2_White_RGB 1.svg" alt="TIRAS LOGO">
+                                </a>
+                                <div class="middle__search">
+                                <form>
+                                    <input type="text" placeholder="SEARCH">
+                                    <button type="submit"></button>
+                                </form>
+                                </div>
+                                <div class="middle__icons">
+                                    <div class="middle__center">
+                                        <ul class="middle__list">
+                                            <li><a href="#"><img src="/img/Icons/headphones 1.svg" alt="support"></a></li>
+                                            <li><a href="#"><img src="img/Icons/Group 1.svg" alt="favorite"></a></li>
+                                            <li><a href="#"><img src="img/Icons/Group.svg" alt="cart"></a></li>
+                                            <li><a href="#"><img src="img/Icons/Group_2.svg" alt="profile"></a></li>
+                                        </ul>
+                                        <a href="#" class="middle__profile">sign in</a>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="navigation">
+                            <div class="header__wrapper wrapper">
+                                <div class="navigation__hamb" id="myhamburger">
+                                        <ul>
+                                            <div class="li__wrapper">
+                                            <li><a href="#">WOMEN'S SHOES</a></li>
+                                            <li><a href="#">MEN'S SHOES</a></li>
+                                            <li><a href="#">WOMEN'S BAGS</a></li>
+                                            <li><a href="#">ABOUT US</a></li>
+                                            <li><a href="#">PAYMENT AND DELIVERY</a></li>
+                                            <li><a href="#">BLOG</a></li>
+                                            <li><a href="#">CONTACTS</a></li>
+                                            </div>
+                                        </ul>
+                                        <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                                            <div class="center">Categories</div>
+                                        </a>
+                                </div>
+                                <div class="right">
+                                    <div class="sale">
+                                        <a href="#">sale</a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#"><img src="/img/Icons/facebook 1.svg" alt="facebook"></a>
+                                        <a href="#"><img src="/img/Icons/instagram 1.svg" alt="instagram"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="contacts">
+                            <div class="contacts__together">
+                                <div class="contacts__title">contacts</div>
+                                <div class="contacts__subtitle">
+                                    <a href="#" class="home">Home</a>
+                                    <a href="#">Contacts</a>
+                                </div>
+                            </div>
+                        </div>
+                </header>
+                <main>
+                    <div class="form">
+                        <div class="form__wrapper wrapper">
+                            <div class="form__container">
+                                <div class="form__title">
+                                    Contact Form
+                                </div>
+                                <p class="form__subtitle">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor, nec eleifend posuere vitae mauris, amet, velit. 
+                                    Sit tellus nisl ultricies montes, enim tortor nisi. Feugiat sit id feugiat luctus viverra aliquam proin sed. 
+                                    Purus a enim risus posuere tellus pretium. 
+                                </p>
+                                <form action="#" method="get" class="form__form">
+                                    <label for="name">Name</label><br>
+                                    <input type="text" id="name" name="name" class="form__name"><br>
+                                    <label for="phone_number">Phone number</label><br>
+                                    <input type="tel" id="phone_number" name="phone_number" class="form__phone"><br>
+                                    <label for="email">E-mail</label><br>
+                                    <input type="email" id="email" name="email" class="form__email"><br>
+                                    <p><label for="message">Message</label></p>
+                                    <textarea id="message" name="message" class="form__message"></textarea><br><br>
+                                    <input type="submit" value="send message" class="form__button">
+                                </form> 
+                                <div class="info">
+                                    <div class="info__row">
+                                        <div class="info__element">
+                                            <div class="info__content">
+                                                <img src="/img/Icons/location 1.svg" alt="location" class="img">
+                                                <div class="info__block">
+                                                    <div class="info__title">Location</div>
+                                                    <div class="info__subtitle subtitle__1">Chisinau,<br>bvd. Moscova 15/7</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="info__element">
+                                            <div class="info__content">
+                                                <img src="/img/Icons/phone 1.svg" alt="phone" class="img">
+                                                <div class="info__block">
+                                                    <div class="info__title">Phone</div>
+                                                    <div class="info__subtitle subtitle__2">+ 373 60 852 456<br><br>+ 373 22 46 548</div>
+                                                </div>
+                                            </div>                                        
+                                        </div>
+                                        <div class="info__element">
+                                            <div class="info__content">
+                                                <div class="info__content">
+                                                    <img src="/img/Icons/mail 1.svg" alt="location" class="img">
+                                                    <div class="info__block">
+                                                        <div class="info__title">Email</div>
+                                                        <div class="info__subtitle subtitle__3">info@tiras.md</div>
+                                                    </div>
+                                                </div>                                        
+                                            </div>
+                                        </div>
+                                        <div class="info__element">
+                                            <div class="info__content">
+                                                <div class="info__content">
+                                                    <img src="/img/Icons/social-media 1.svg" alt="social-media" class="img">
+                                                    <div class="info__block">
+                                                        <div class="info__title">Social</div>
+                                                        <div class="info__subtitle subtitle__4">
+                                                            <a href="#"><img src="/img/Icons/facebook 2.svg" alt="facebook"></a>
+                                                            <a href="#"><img src="/img/Icons/instagram 2.svg" alt="instagram"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>                                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="map">
+                                    <iframe allow="geolocation" frameborder="0" class="map__iframe"
+                                    src="https://map.md/ru/city/129991407?embed=1#13.9/47.02753930000003/28.8316461/0/0"> 
+                                    </iframe>
+                                </div>
+                        </div>   
+                    </div>
+                </main>
+                </div>
+                <footer class="footer">
+                    <div class="bottom__wrapper wrapper">
+                        <div class="bottom__row">
+                            <div class="bottom__element">
+                                <div class="bottom__content">
+                                    <div class="bottom__title">Catalog</div>
+                                    <div class="bottom__subtitle">
+                                        <ul>
+                                            <li><a href="#">Women's shoes</a></li>
+                                            <li><a href="#">Men's shoes</a></li>
+                                            <li><a href="#">Cosmetics for shoes</a></li>
+                                            <li><a href="#">Accessories</a></li>
+                                            <li><a href="#">Sale</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom__element">
+                                <div class="bottom__content">
+                                        <div class="bottom__title">For customers</div>
+                                        <div class="bottom__subtitle">
+                                            <ul>
+                                            <li><a href="#">Size Chart</a></li>
+                                            <li><a href="#">How to place an order</a></li>
+                                            <li><a href="#">How to choose the size</a></li>
+                                            <li><a href="#">Payment and Delivery</a></li>
+                                            <li><a href="#">How to return it</a></li>
+                                            <li><a href="#">Discount card</a></li>
+                                            <li><a href="#">Discounted products</a></li>
+                                            <li><a href="#">Gift certificates</a></li> 
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>                                        
+                            <div class="bottom__element">
+                                <div class="bottom__content">
+                                    <div class="bottom__block">
+                                        <div class="bottom__title">About company</div>
+                                        <div class="bottom__subtitle">
+                                            <ul>
+                                                <li><a href="#">About the brand</a></li>
+                                                <li><a href="#">Contacts</a></li>
+                                                <li><a href="#">Public offer</a></li>
+                                                <li><a href="#">SAUT results</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>                                        
+                            </div>
+                            <div class="bottom__element">
+                                <div class="bottom__content">
+                                        <div class="bottom__block">
+                                            <div class="bottom__title">Contacts</div>
+                                            <div class="bottom__subtitle">
+                                                <ul>
+                                                    <li class="bottom__phone">+373 78 589 095</li>
+                                                    <li class="bottom__email">info@tiras.md</li>
+                                                </ul>
+                                                <div class="bottom__social">
+                                                    <p>We are in social networks</p>
+                                                    <a href="#"><img src="/img/Icons/facebook-svgrepo-com.svg" alt="facebook"></a>
+                                                    <a href="#"><img src="/img/Icons/instagram-svgrepo-com.svg" alt="instagram"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>                                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <div class="copyright__wrapper wrapper">
+                            <div class="copyright__left">Copyright © 2021 Shoes Store TIRAS</div>
+                            <div class="copyright__right">
+                                <img src="/img/image-3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <div class="slideout">
+                    <button class="slideout__open button" onclick="openForm()"><img src="img/Icons/chatting 1.svg" alt="Chat" /></button>
+                    <div class="slideout__inner" id="myForm">
+                        <form action="#" class="slideout__form">
+                            <div class="slideout__wrapper">
+                                <div class="slideout__facebook social-media">
+                                    <a href="#"><img src="img/Icons/facebook-option-svgrepo-com.svg" alt="facebook"/></a>
+                                </div>
+                                <div class="slideout__viber social-media">
+                                    <a href="#"><img src="img/Icons/viber-svgrepo-com (2).svg" alt="viber"/></a>    
+                                </div>
+                                <div class="slideout__whatsapp social-media">
+                                    <a href="#"><img src="img/Icons/whatsapp-svgrepo-com (1).svg" alt="whatsapp"/></a>       
+                                </div>
+                                <button type="button" class="slideout__cancel button" onclick="closeForm()"><img src="img/Icons/cancel 1.svg" alt="cancel"></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </div>
+        <script type="text/javascript" src="/js/script.js"></script>
+	</body>
+</html>
