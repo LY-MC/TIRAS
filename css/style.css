@@ -55,7 +55,7 @@ body{
   font-weight: 600;
   color: #fff;
   padding-left: 15px;
-  background: url("img/Icons/phone-svgrepo-com.svg") 0 50% no-repeat;
+  background: url("/img/Icons/phone-svgrepo-com.svg") 0 50% no-repeat;
 }
 .top__call{
   margin-left: 11px;
@@ -70,7 +70,7 @@ body{
   font-weight: 600;
   color: #fff;
   padding-left: 20px;
-  background: url("img/Icons/envelope-svgrepo-com\ \(1\).svg") 0 50% no-repeat;
+  background: url("/img/Icons/envelope-svgrepo-com\ \(1\).svg") 0 50% no-repeat;
 }
 @media screen and (max-width: 565px){
   .top__phone, .top__call, .top__email{
@@ -116,7 +116,7 @@ body{
   }
 }
 .us{
-  background: url("img/Icons/united-states 1.svg") left no-repeat;
+  background: url("/img/Icons/united-states 1.svg") left no-repeat;
 }
 .middle{
   background-color: #f5ad3f;
@@ -164,7 +164,7 @@ body{
   cursor: pointer;
 }
 .middle__search button:before{
-  content: url("img/Icons/search.svg");
+  content: url("/img/Icons/search.svg");
   font-size: 16px;
   color: #F9F0DA;
 }
@@ -289,7 +289,7 @@ li{
     top: 50%;                         
     transform: translate(0, -50%);
     padding-right: 30px;
-    background: url("img/Icons/hamburger-menu-svgrepo-com\ \(1\).svg") 100% 50%/20px 20px no-repeat;
+    background: url("/img/Icons/hamburger-menu-svgrepo-com\ \(1\).svg") 100% 50%/20px 20px no-repeat;
   }
 }
 @media screen and (max-width: 780px){
@@ -356,7 +356,7 @@ li{
   font-weight: 600;
 }
 .sale::before{
-  content: url("img/Icons/gift.svg");
+  content: url("/img/Icons/gift.svg");
 }
 .icons{
   border-left: 1px solid #f2eded;
@@ -369,7 +369,7 @@ li{
 }
 .contacts{
   background-color: #f5ad3f;
-  background-image: url("img/nike-bg-1@2x.png") ;
+  background-image: url("/img/nike-bg-1@2x.png") ;
   background-size: cover;
   height: 175px;
   text-align: center;
@@ -506,16 +506,16 @@ li{
   letter-spacing: 0.7px;
 }
 .form__name{
-  background: url("img/Icons/person-svgrepo-com.svg") 95% 50% no-repeat;
+  background: url("/img/Icons/person-svgrepo-com.svg") 95% 50% no-repeat;
 }
 .form__phone{
-  background: url("img/Icons/phone-svgrepo-com.svg") 95% 50% no-repeat;
+  background: url("/img/Icons/phone-svgrepo-com.svg") 95% 50% no-repeat;
 }
 .form__email{
-  background: url("img/Icons/envelope-svgrepo-com\ \(1\).svg") 95% 50% no-repeat;
+  background: url("/img/Icons/envelope-svgrepo-com\ \(1\).svg") 95% 50% no-repeat;
 }
 .form__message{
-  background: url("img/Icons/pencil-svgrepo-com.svg") 95% 5% no-repeat;
+  background: url("/img/Icons/pencil-svgrepo-com.svg") 95% 5% no-repeat;
 }
 .form textarea{
   padding-top: 10px;
@@ -662,11 +662,11 @@ li{
 }
 .bottom__phone{
   padding-left: 15px;
-  background: url("img/Icons/phone-svgrepo-com.svg") 0 50% no-repeat;
+  background: url("/img/Icons/phone-svgrepo-com.svg") 0 50% no-repeat;
 }
 .bottom__email{
   padding-left: 18px;
-  background: url("img/Icons/envelope-svgrepo-com\ \(1\).svg") 0 50% no-repeat;
+  background: url("/img/Icons/envelope-svgrepo-com\ \(1\).svg") 0 50% no-repeat;
 }
 .copyright{
   height: 50px;
